@@ -53,14 +53,20 @@ header.hero h2 {
     margin: 0;
 }
 
+/*
+A11y Change: changed font color to improve contrast
+*/
 header.hero h1 {
-    color: #fff;
+    color: #1c3282;
     font-size: 4.2em;
     margin-bottom: 20px;
 }
 
+/*
+A11y Change: changed font color to improve contrast
+*/
 header.hero h2 {
-    color: #4d5791;
+    color: #12227d;
 }
 
 .container {
