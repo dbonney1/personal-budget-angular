@@ -351,40 +351,12 @@ template {
 * {
   box-sizing: border-box;
 }
-
+.skip {
+  display: none;
+}
 body {
   font-size: 10px;
   font-family: Tahoma, Arial;
-}
-
-nav.menu {
-  width: 100%;
-  background-color: #4d5791;
-  height: 44px;
-  padding: 0 40px;
-}
-
-nav.menu ul,
-nav.menu ul li {
-  margin: 0;
-  padding: 0 ;
-  list-style: none;
-  display: inline-block;
-}
-
-nav.menu ul li a {
-  display: block;
-  padding: 0 20px;
-  line-height: 44px;
-  font-size: 1.4em;
-  text-decoration: none;
-  color: #fff;
-  margin: 0;
-}
-
-nav.menu ul li a:hover  {
-  background-color: white;
-  color: #4d5791;
 }
 
 header.hero {
@@ -397,6 +369,14 @@ header.hero {
   padding-top: 40px;
 }
 
+.breadcrumbs {
+  margin-top: 50px;
+}
+.breadcrumbs img {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
 header.hero h1,
 header.hero h2 {
   text-align: center;

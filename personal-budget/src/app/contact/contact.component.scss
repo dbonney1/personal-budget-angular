@@ -1,0 +1,27 @@
+h1.info {
+  text-align: center;
+  margin: 0;
+  color: purple;
+}
+.contact-info {
+  width: 60%;
+  margin: 50px auto;
+}
+.contact-info img, .contact-details {
+  display: inline-block;
+}
+.contact-info img {
+  width: 300px;
+  height: 300px;
+}
+.contact-details {
+  text-align: center;
+  position: relative;
+  top: -200px;
+  list-style-type: none;
+}
+.contact-details li {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 30px;
+}
